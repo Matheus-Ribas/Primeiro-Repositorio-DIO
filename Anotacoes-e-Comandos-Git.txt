@@ -1,0 +1,19 @@
+SHA1 - modo de criptografar um arquivo (40 caracteres que identificam 1 asset, tipo um email que identifica uma conta); forma curta de representar um arquivo (chave)
+
+Blob - guarda arquivos e metadados (só guarda o SHA) --> blob 9\0conteudo
+Trees - guarda blobs; também possui um SHA1 próprio, que muda conforme muda o SHA1 do arquivo a que se refere
+Commit - armazena trees, parents (último commit antes dele), autor, mensagem e timestamp (hora de criação); também possui SHA1 próprio, que também sofre interferência
+
+sistema distribuído seguro
+
+COMANDOS
+
+git init - criar um repositório
+git status - checa o status do arquivo (staged, unmodified ou modified)
+git add - adiciona arquivo para ser tracked
+git add * - adiciona todos os arquivos para track
+git commit -m "MENSAGEM AQUI" - dá commit em um arquivo (incluindo uma mensagem adicional)
+
+
+Anotações feitas por Matheus Nesi Ribas, durante o curso Primeiros Passos em Tecnologia, da Digital Inovation One.
+

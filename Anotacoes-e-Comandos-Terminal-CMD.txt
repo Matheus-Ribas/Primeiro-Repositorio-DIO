@@ -1,0 +1,40 @@
+Mudar diretório:
+
+Windows - cd (cd .. para subir)
+Linux - cd (cd .. para subir)
+
+Listar diretórios:
+
+Windows - dir
+Linux - ls
+
+Limpar prompt de comando:
+
+Windows - cls
+Linux - clear 
+(Atalho no teclado: CTRL + L)
+
+Criar diretório:
+
+Windows - mkdir
+Linux - mkdir
+
+Deletar:
+
+Windows - del (Só funciona em arquivos, não em pastas/diretório. se digitar del DIRETÓRIO, apaga só os arquivos dentro desse diretório)
+Widnows - rmdir DIRETÓRIO /S /Q
+Linux - rm -rf (rf -> remove todas as pastas (r) e apaga as mensagens de "tem certeza?" (f) )
+
+Printar mensagem:
+
+Windows - echo MENSAGEM AQUI
+Linux - echo MENSAGEM AQUI
+
+Mover arquivo:
+
+mv NOME DO ARQUIVO.EXTENSAO ./DIRETORIO NOVO	
+
+
+Anotações feitas por Matheus Nesi Ribas, durante o curso Primeiros Passos em Tecnologia, da Digital Inovation One.
+
+
